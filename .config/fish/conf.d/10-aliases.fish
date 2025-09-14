@@ -12,6 +12,8 @@ alias lsblk='lsblk | bat --style=plain -l conf'
 
 alias grubupdate='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 
+alias soft-reboot='sudo systemctl soft-reboot'
+
 alias nf='fastfetch'
 alias ff='fastfetch'
 
