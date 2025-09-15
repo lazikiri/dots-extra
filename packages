@@ -1,1 +1,12 @@
-eza fastfetch fzf zoxide mpv
+fish packages:
+eza
+fastfetch
+fzf
+zoxide
+
+neovim packages:
+nvim
+ripgrep
+
+other packages:
+mpv 
