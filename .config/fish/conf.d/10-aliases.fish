@@ -13,7 +13,7 @@ alias soft-reboot='sudo systemctl soft-reboot'
 alias nf='fastfetch'
 alias ff='fastfetch'
 
-alias fzf='fzf --style full --color 16 --layout=reverse --height=30 --preview="bat -p --color=always {}"'
+alias fzf='fzf --style full --color 16 --layout=reverse --height=30 --preview="cat {}"'
 
 alias gs="git status"
 alias ga="git add"
