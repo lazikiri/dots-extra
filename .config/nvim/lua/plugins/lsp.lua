@@ -148,7 +148,7 @@ return
         bashls = {},
         hyprls = {},
         jsonls = {},
-        cssls = {},
+        -- cssls = {},
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
