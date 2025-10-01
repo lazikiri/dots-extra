@@ -148,7 +148,7 @@ return
         bashls = {},
         hyprls = {},
         jsonls = {},
-        -- cssls = {},
+        docker_compose_language_service = {},
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
