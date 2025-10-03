@@ -15,9 +15,9 @@ require("lazy").setup(
     {
         require "plugins.colorscheme",
         require "plugins.lsp",
-        require "plugins.neo-tree",
+        require "plugins.neotree",
+        require "plugins.treesitter",
         require "plugins.indent-blankline",
-        require "plugins.telescope",
-        require "plugins.treesitter"
+        require "plugins.autopairs"
     }
 )

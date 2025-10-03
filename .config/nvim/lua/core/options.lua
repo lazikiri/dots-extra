@@ -8,6 +8,8 @@ vim.o.linebreak = false -- Shows text as one long line
 
 vim.o.mouse = 'a' -- Enable mouse mode
 
+vim.o.cursorline = true -- Makes cursor easier to see
+
 vim.o.undofile = true -- Save undo history
 
 vim.o.swapfile = false -- Creates a swap file
