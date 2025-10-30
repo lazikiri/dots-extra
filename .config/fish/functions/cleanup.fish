@@ -13,5 +13,6 @@ function cleanup
 
     if type -q flatpak
         flatpak uninstall --unused
+        flatpak uninstall --unused --user
     end
 end
