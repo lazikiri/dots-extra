@@ -1,5 +1,5 @@
 return {
-    'nvimdev/indentmini.nvim',
+    "nvimdev/indentmini.nvim",
     config = function()
         require("indentmini").setup()
     end,
