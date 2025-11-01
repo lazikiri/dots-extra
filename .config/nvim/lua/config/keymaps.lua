@@ -3,7 +3,7 @@ vim.g.maplocalleader = ' ' -- Set leader key to space
 
 vim.keymap.set('n', '<leader>nt', ':Neotree toggle <CR>') -- Leader + NT to open neotree
 
-vim.keymap.set('n', '<Esc>', ':noh<CR>')
+vim.keymap.set('n', '<Esc>', ':noh<CR>') -- Escape removes search highlight
 
 vim.keymap.set('n', '<C-s>', '<cmd> w <CR>') -- Ctrl + S to save
 
