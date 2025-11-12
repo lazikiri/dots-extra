@@ -1,3 +1,6 @@
+vim.g.mapleader = " "
+vim.g.maplocalleader = " " -- Set leader key to space
+
 vim.o.number = true
 vim.o.relativenumber = true -- Relative line nunbers
 

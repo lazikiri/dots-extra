@@ -1,6 +1,3 @@
-vim.g.mapleader = " "
-vim.g.maplocalleader = " " -- Set leader key to space
-
 vim.keymap.set("n", "<leader>e", ":Neotree toggle <CR>") -- Leader + NT to open neotree
 
 vim.keymap.set("n", "<Esc>", ":noh<CR>") -- Escape removes search highlight
