@@ -16,5 +16,5 @@ vim.keymap.set("n", "<C-k>", "<C-w><C-k>") -- Move focus to the upper window
 
 vim.keymap.set("n", "<leader>tn", ":tabnew<CR>") -- Open new tab
 vim.keymap.set("n", "<leader>tc", ":tabclose<CR>") -- Close current tab
-vim.keymap.set("n", "<leader>tr", ":tabn<CR>") -- Go to next tab
-vim.keymap.set("n", "<leader>tl", ":tabp<CR>") -- Go to previous tab
+vim.keymap.set("n", "<leader>tn", ":tabn<CR>") -- Go to next tab
+vim.keymap.set("n", "<leader>tp", ":tabp<CR>") -- Go to previous tab
