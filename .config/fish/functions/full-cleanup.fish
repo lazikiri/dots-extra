@@ -1,17 +1,17 @@
 function full-cleanup
     if type -q paru
         paru -Rns (paru -Qtdq)
-        paru -Scc --noconfirm
+        paru -Scc
     end
 
     if type -q yay
         yay -Rns (yay -Qtdq)
-        yay -Scc --noconfirm
+        yay -Scc
     end
 
     if not type -q paru; and not type -q yay
         sudo pacman -Rns(pacman -Qtdq)
-        sudo pacman -Scc --noconfirm
+        sudo pacman -Scc
     end
 
     if type -q flatpak
